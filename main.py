@@ -69,7 +69,7 @@ search = DuckDuckGoSearchResults(description="Una herrramienta para la búsqueda
 
 tools = [youtube, search]
 
-llm = ChatOllama(model="llama3.1").bind_tools(tools)
+llm = ChatOllama(model="llama3.2:1b").bind_tools(tools)
 
 
 
